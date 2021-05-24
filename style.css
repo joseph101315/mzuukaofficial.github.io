@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.header {
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: red;
+  position: fixed;
+}
+.innerheader {
+  width: 1360px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  background-color: springgreen;
+}
+.logocontainer {
+  height: 100%;
+  float: left;
+  display: table;
+}
+.logocontainer h1 {
+  color: white;
+  vertical-align: middle;
+  display: table-cell;
+  height: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+}
+.logocontainer h1 span {
+  font-weight: 800;
+}
+.navigation {
+  height: 100%;
+  float: right;
+}
+.navigation a {
+  height: 100%;
+  display: table;
+  float: right;
+  padding: 20px;
+}
+.navigationa: last child {
+  padding: 0;
+}
+.navigation a li {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.body {
+  height: 700px;
+  width: 100%;
+  background-color: gray;
+  display: inline-block;
+  margin: 0 auto;
+}
+.box_three {
+  height: 80vh;
+  width: 500px;
+  border-left: 1px royalblue dashed;
+}
+.box_one {
+  height: 80vh;
+  width: 500px;
+}
+.box_two {
+  height: 80vh;
+  width: 500px;
+  border-left: 1px royalblue dashed;
+}
+.container {
+  display: flex;
+  background-color: rgba(0, 0, 255, 0.1);
+}
+img {
+  height: 200px;
+  width: 300px;
+  margin-left: 100px;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+p {
+  margin: 5px;
+}
+a {
+  font: 100px;
+}
+.linkstyle {
+  font-size: larger;
+  color: aqua;
+}
+.footer {
+  height: 300px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+}
+.details {
+  width: 33.33%;
+  height: 100%;
+  background-color: skyblue;
+}
+.contact {
+  width: 33.33%;
+  height: 100%;
+  background-color: greenyellow;
+}
+.socialmedia {
+  width: 33.33%;
+  height: 100%;
+  background-color: purple;
+}
